@@ -49,7 +49,15 @@ or download the version bundled with all requirement mods [BlindLusion KK With R
 
 4. Start NVDA, then launch the game.
 
-The first startup announcement identifies the loaded BlindLusion.KK version. Its dedicated diagnostic log is `BepInEx\BlindLusion.KK.log`.
+## Troubleshooting + Q&A
+
+- When installing FH patch, you may got stuck at 97% for some reasons, please wait 15 minutes or a little longer. It's only slow.
+- FH patch is hard requirement for story mode, although the mod is worked without patch. However you may have small H positions in Free-H mode to choose.
+- FH patch, only require mods and important fixes are really important. The rest are optional and affect only visual purpose. And gameplay mod may conflict with my mod, install on your own risk.
+- Character card is fully supported. If you're asking what you can install further.
+- DLC is supported, and the game work without DLC as well.
+- DLC included new 3 personalities and new dating location. If you're not a fan of DLC personalities, you don't lose anything.
+- Wedding mode on DLC, I don't know about it yet. I'm not sure does it really worth for now.
 
 ## Current beta scope
 

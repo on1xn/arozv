@@ -22,19 +22,23 @@ If you're interested now, you can buy the game on [Steam](https://store.steampow
 Install these before BlindLusion.KK:
 
 - [HF Patch](https://github.com/ManlyMarco/KK-HF_Patch/releases)  required. Download and install it with a torrent client. Its bundled prerequisite mods satisfy the remaining required mod dependencies, they do not need to be downloaded individually. But make sure during install FH patch, you select the require mods below.
+- Important fixes
 - BepInEx 5
 - KK_GamepadSupport
 - KKAPI
 - KoikatsuTranslation / XUnity AutoTranslator
 - KK_Subtitles
 - KK_HeightBar
+- Optional content like character cards and clothes (clothes description from 3rd party are not supported)
 - Of course, NVDA
 
 `Tolk.dll` and `nvdaControllerClient64.dll` are included in this archive. They belong in the **Koikatsu Party game root**, next to the game executable.
 
 ## Installation
 
-1. Download the mod here: [BlindLusion](https://tinyurl.com/2azudmxk)
+1. Download the mod here: [BlindLusion KK](https://tinyurl.com/2azudmxk) 
+or download the version bundled with all requirement mods [BlindLusion KK With Require Mods](https://drive.google.com/drive/folders/1RCDqXn6liicToyHcL5NtD3p0V0GCe0E0?usp=sharing)
+> FH patch still a hard requirement, if you downloaded the mod with bundled require mods.
 2. Extract the archive, then copy the **contents** of the `BlindLusion.KK-0.34.1-public-beta` folder into the Koikatsu Party game folder.
 3. Keep the included folder structure intact. The final paths should include:
 
@@ -95,8 +99,6 @@ Normal menus use keyboard/controller navigation. BlindLusion provides semantic s
 The in-game **BlindLusion Hotkeys** tabs are the authoritative, context-sensitive reference. They account for modes and controls that are only available in a particular scene.
 
 ## And I want to be honest with you
-
-This project has reached a very playable state, but for Story Mode bugs and other improvements that exceed my programming capabilities, I need to ask for your support.
 
 Since I don't live in a country where money comes easily, and this project requires both front-tier AI models and local models, including my energy to review the code by my self + extra manual workflow, your support is crucial. 
 I have already completed over 90% of it, asking for support for this project is a very small favor to truly call it fully playable. (And it's not that much as you thought)

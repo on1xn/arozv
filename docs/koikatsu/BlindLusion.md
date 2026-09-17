@@ -1,6 +1,6 @@
 # BlindLusion.KK | Koikatsu Party Accessibility Mod by ON1XN
 
-BlindLusion.KK is a screen-reader accessibility mod for **Koikatsu Party**. 
+BlindLusion.KK is a screen-reader accessibility mod for **Koikatsu Party**.  And 100% playable.
 
 ## What is KoiKatsu and where to buy
 
@@ -36,18 +36,27 @@ Install these before BlindLusion.KK:
 
 ## Installation
 
-1. Download the mod here: [BlindLusion KK](https://tinyurl.com/2azudmxk) 
-or download the version bundled with all requirement mods [BlindLusion KK With Require Mods](https://drive.google.com/drive/folders/1RCDqXn6liicToyHcL5NtD3p0V0GCe0E0?usp=sharing)
-> FH patch still a hard requirement, if you downloaded the mod with bundled require mods.
-2. Extract the archive, then copy the **contents** of the `BlindLusion.KK-0.34.1-public-beta` folder into the Koikatsu Party game folder.
-3. Keep the included folder structure intact. The final paths should include:
+* Download the mod here: [BlindLusion KK](https://drive.google.com/drive/folders/1RCDqXn6liicToyHcL5NtD3p0V0GCe0E0?usp=drive_link)
 
-   - `Koikatsu Party\BepInEx\plugins\BlindLusion\BlindLusion.KK.dll`
-   - `Koikatsu Party\BepInEx\plugins\BlindLusion\Localization\en\...`
-   - `Koikatsu Party\Tolk.dll`
-   - `Koikatsu Party\nvdaControllerClient64.dll`
+Download "Mod Only" if you update from previous version.
 
-4. Start NVDA, then launch the game.
+Download "With require mods bundled" if new install.
+
+> FH patch still a hard requirement, if you choose with require mods bundled version.
+
+* Extract the archive, then copy the **contents** of the `BlindLusion.KK` folder into the Koikatsu Party game folder.
+
+* Keep the included folder structure intact. The final paths should include:
+
+    `Koikatsu Party\BepInEx\plugins\BlindLusion\BlindLusion.KK.dll`
+
+    `Koikatsu Party\BepInEx\plugins\BlindLusion\Localization\en\...`
+
+    `Koikatsu Party\Tolk.dll`
+    
+    `Koikatsu Party\nvdaControllerClient64.dll`
+
+* Start NVDA, then launch the game.
 
 ## Troubleshooting + Q&A
 
@@ -57,34 +66,6 @@ or download the version bundled with all requirement mods [BlindLusion KK With R
 - Character card is fully supported. If you're asking what you can install further.
 - DLC is supported, and the game work without DLC as well.
 - DLC included new 3 personalities and new dating location. If you're not a fan of DLC personalities, you don't lose anything.
-- Wedding mode on DLC, I don't know about it yet. I'm not sure does it really worth for now.
-
-## Current beta scope
-
-- Accessible story mode, Settings, Extra (Free-H only), Character Maker, Story setup, classroom, card-loading, and Story free-roam.
-- Structured Character Maker navigation, color editing/presets, card-information reading, and card summaries.
-- Story dialogue, choices, tutorial handling, NPC/map navigation, conversations, save/load, and ambient subtitle speech.
-- Free-H setup and H-scene controls: actions, positions, clothing, status, character summaries, subtitles, and Story H-result confirmation.
-- After School DLC supported. (Although it's not 100% optimized yet.)
-
-## Known issues and limitations
-
-- In Story Mode, story characters are not currently trackable. Other NPCs can be dated normally and the core gameplay is playable.
-- Story Mode's Look, Touch, and bathroom Peeping are not supported yet.
-- Female Character Maker is the well-optimized Maker workflow. Although there are cursor jumps or trickly to navigate in certain categories, need to get used to. Male Character Maker is not yet well optimized.
-- Character height in slider and final sumarization on card information is different. It's roughly 20 - 25CM., If you want your character height 170, you may need to adjust the slider until it said 190 for example. And rework on measurement again, because changing character height also affect body sizes too.
-- Character saving is still clumcy, since I have no time to optimized it properly. You can try to mess around all arrow keys to take a photo, both Student ID and card ID. There's a save button after you took photo on your character. Sorry for unconvenience. However, it's 100% doable.
-- Color names can be imprecise or unusual for some clothing, hair, and body-part colors, although the overall feedback is usable.
-- Character summaries and the card reader can occasionally be inaccurate. They are still detailed enough to provide a useful overview though.
-- Automatic walking to map exits/endpoints can get stuck more often than automatic walking to NPCs. Use Shift plus Enter to activate an endpoint. remote activation can work even when it reports a distance greater than 10–20 meters.
-- Manual walking is not supported yet.
-- H-scene caressing-method switching does not yet have dedicated hotkeys. Open the current action controls with Alt plus Q. Caressing items such as toys are not read yet.
-- Although the game supports controllers in some areas, many modes are not optimized for the best controller screen-reader experience. Keyboard use is recommended.
-- Result window from H scene in story mode is not support yet. But not affect gameplay.
-- Tutorials in game are not well instruction. Read game's manual in the game folder and BlindLusion hotkeys instead.
-- Free roam mode subtitle may not read properly at times.
-- Live Concert and Wedding are not support for now. (Wedding is DLC's content)
-- Minor issues remain, including occasional location-name/reporting problems. They should not prevent normal gameplay.
 
 ## Essential hotkeys
 
@@ -106,16 +87,9 @@ Normal menus use keyboard/controller navigation. BlindLusion provides semantic s
 
 The in-game **BlindLusion Hotkeys** tabs are the authoritative, context-sensitive reference. They account for modes and controls that are only available in a particular scene.
 
-## And I want to be honest with you
-
-Since I don't live in a country where money comes easily, and this project requires both front-tier AI models and local models, including my energy to review the code by my self + extra manual workflow, your support is crucial. 
-I have already completed over 90% of it, asking for support for this project is a very small favor to truly call it fully playable. (And it's not that much as you thought)
-
-Every bit of support is a collective effort to make this project and future ones succeed, acting more as a donation or crowdfunding. No paywall, early access or pay for beta test at all.
-
-Of course, it is only optional. It's just that bug fixes moving forward will be very slow, or non-existent, if they exceed my own programming skills. Besides, I am already quite happy with what the mod can currently do.
-
 ## Support The Project
+
+Of course, it is only optional. It's just that bug fixes moving forward will be very slow, or non-existent, if they exceed my own programming skills. Besides, I am already quite happy with what the mod can currently do. And it's 100% playable for me, we probably no need to implement more features only serious bugs if there are any.
 
 - Buy me a Cup of Cola: [Ko-FI](https://ko-fi.com/on1xn)
 - Monthly Junk Food: [Patreon](https://patreon.com/on1xn)

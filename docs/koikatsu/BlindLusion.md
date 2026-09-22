@@ -58,38 +58,100 @@ Download "With require mods bundled" if new install.
 
 * Start NVDA, then launch the game.
 
-## Troubleshooting + Q&A
+## Troubleshooting and Q&A
 
-- When installing FH patch, you may got stuck at 97% for some reasons, please wait 15 minutes or a little longer. It's only slow.
-- FH patch is hard requirement for story mode, although the mod is worked without patch. However you may have small H positions in Free-H mode to choose.
-- FH patch, only require mods and important fixes are really important. The rest are optional and affect only visual purpose. And gameplay mod may conflict with my mod, install on your own risk.
-- Character card is fully supported. If you're asking what you can install further.
-- DLC is supported, and the game work without DLC as well.
-- DLC included new 3 personalities and new dating location. If you're not a fan of DLC personalities, you don't lose anything.
+- If HF Patch appears stuck at 97%, leave the installer running for at least 15 minutes. This stage can be very slow.
+- HF Patch is required for reliable Story Mode support. The game may start without it, but Free-H can have far fewer positions and other expected dependencies may be missing.
+- In the HF Patch installer, the required mods and important fixes are essential. Most visual additions are optional. Extra gameplay plugins may conflict with BlindLusion, so install them at your own risk.
+- Character cards and official DLC are supported. Third-party clothing can be used, but its appearance may not have a useful accessible description.
+- If Tolk is silent, confirm that NVDA is running and that `Tolk.dll` and `nvdaControllerClient64.dll` are beside the game executable, not inside `BepInEx`.
+- Keep the complete `BepInEx\plugins\BlindLusion\Localization\en` folder. Missing localization files cause unnamed or incomplete controls.
+- Some Story dialogue transitions intentionally contain no spoken line. Keep pressing Enter, or A on a controller, to continue. This is how the game sequences those transitions; BlindLusion deliberately does not invent a message because doing so can cause duplicated or out-of-order dialogue.
+- To save a Character Maker card, open the save window and take the **Student ID** first. Then select **Character Card** and take it. After both have been taken, select **Save**.
 
-## Essential hotkeys
+## Hotkeys
 
-Normal menus use keyboard/controller navigation. BlindLusion provides semantic speech and Backspace/B-button back behavior where supported.
+Normal menus use the Arrow keys and Enter, or the D-pad and A. Backspace or B returns to the previous accessible level. Escape remains the game's normal exit command.
 
-| Context | Keyboard | Controller |
+### Character Maker
+
+| Action | Keyboard | Controller |
 |---|---|---|
-| Story dialogue: next line | Enter | A |
-| Story/free-roam BlindLusion menu | Tab | LB + X |
-| Story: browse nearby NPCs/endpoints/objects | Page Up / Page Down; Shift + Page Up / Down changes group | See the in-game Hotkeys menu |
-| Story: read selected target / description | Home / End | See the in-game Hotkeys menu |
-| Story: walk / teleport to selected target | Shift + Home / Alt + Home | See the in-game Hotkeys menu |
-| H scene controls | Tab | LB + X |
-| H scene: current action / scene position / clothing | Q / W / E | Listed in the H-scene Hotkeys tab |
-| H scene: character / clothing description | D / C; Shift modifier for second female | Listed in the H-scene Hotkeys tab |
-| H scene: read gauge / animation / mode | S / F / V | Listed in the H-scene Hotkeys tab |
-| H-scene result screen | Enter | A |
-| Subtitle/dialogue review | `[` previous, `]` next; Shift jumps first/latest | LB + D-pad Left / Right where supported |
+| Open or close the BlindLusion guide | Tab | LB + X |
+| Read the current character description | D | LB + Y |
+| Read the current clothing description | C | LB + Right Bumper |
+| Return or close the current layer | Backspace | B |
 
-The in-game **BlindLusion Hotkeys** tabs are the authoritative, context-sensitive reference. They account for modes and controls that are only available in a particular scene.
+When saving a card: select **Student ID**, take the photo, select **Character Card**, take the second photo, then select **Save**.
+
+### Story dialogue and free roam
+
+| Action | Keyboard | Controller |
+|---|---|---|
+| Advance dialogue or choose the current response | Enter | A |
+| Replay the last voice line | Shift + Space | Not assigned |
+| Open or close the BlindLusion menu | Tab | LB + X |
+| Change target group: NPCs, exits/doors, or events | Shift + Page Up / Page Down | LB + Right Stick Left / Right |
+| Browse the current target group | Page Up / Page Down | LB + Right Stick Up / Down |
+| Read the selected target | Home | LB + Left Stick click |
+| Read the selected NPC description | End | LB + Right Stick click |
+| Walk to the selected target | Shift + Home | LB + Right Bumper |
+| Teleport near the selected target | Alt + Home | LB + B |
+| Talk to or use a nearby target | Enter | A when offered by the game |
+| Remotely interact with the selected NPC, exit, or event | G | LB + A |
+| Use the selected map exit | Shift + Enter | LB + Y |
+| Read current location / time | B / T | LB + D-pad Up / Down |
+| Toggle standing or crouching | Z | Left Stick click |
+| Previous / next dialogue or subtitle | `[` / `]` | LB + D-pad Left / Right |
+| First / latest dialogue or subtitle | Shift + `[` / Shift + `]` | Not assigned |
+| Open game settings / map / school roster | F1 / F3 / F4 | Not assigned |
+| Advance to the next time period | F8 or Alt + T | Not assigned |
+
+Some Story transitions are silent. Continue with Enter or A; this is expected and avoids unreliable duplicate dialogue.
+
+### H scenes and Free-H
+
+These shortcuts operate while the BlindLusion H menu is closed unless stated otherwise.
+
+| Action | Keyboard | Controller |
+|---|---|---|
+| Open or close BlindLusion H controls | Tab | LB + X |
+| Open current action group / Actions tab / current action controls | Q / Shift + Q / Left Alt + Q | LB + Right Bumper opens the current group |
+| Open scene-position selection | W | LB + Right Stick click |
+| Open first / second female clothing controls | E / Shift + E | LB + Left Trigger opens the first |
+| Read first / second female character description | D / Shift + D | LB + Left Stick click reads the first |
+| Read first / second female clothing description | C / Shift + C | LB + B reads the first |
+| Read gauges | S | LB + D-pad Up |
+| Lock both / female / other gauges | Shift + S / Left Alt + S / Control + Shift + S | Controller quick settings are available with LB + Back |
+| Read animation / action mode / location / time | F / V / B / T | LB + Y reads animation; LB + D-pad Down reads mode |
+| Begin normal / anal insertion | A / Shift + A | LB + A / LB + Right Trigger |
+| Finish inside, or come inside during Service actions | I, Right Control, or Numpad 1 | Right Bumper |
+| Finish outside | O, Right Alt, or Numpad 3 | Right Stick click |
+| Toggle partner taking the lead during Service actions | Left Control or Numpad 5 | Y |
+| Increase / decrease movement or Service action speed | Up / Down, or Numpad 7 / 2 | D-pad Up / Down |
+| Read penetration speed | X | Not assigned |
+| Switch slow / fast penetration loop | Left Alt or Numpad 6 | X |
+| Manual / automatic penetration movement | Z / Shift + Z | Y toggles mode |
+| Lock automatic movement while inserted | Control + Shift + Z | Not assigned |
+| Withdraw | Left Alt + Z or Numpad 4 | LB + Right Bumper + B |
+| Caring: choose target | Left / Right | D-pad Left / Right |
+| Caring: choose method | Left Control + Left / Right | Left Trigger + D-pad Left / Right |
+| Caring: perform or speed up / slow down | Up / Down | D-pad Up / Down |
+| Caring: target genitals / anus | A / Shift + A | LB + A / LB + Right Trigger |
+| Read caring speed | Shift + X | Not assigned |
+| Toggle H-scene music | Shift + M | Available in H settings |
+| Previous / next subtitle | `[` / `]` | LB + D-pad Left / Right |
+| First / latest subtitle | Shift + `[` / Shift + `]` | Not assigned |
+| Return to the previous accessible group | Backspace | B |
+
+The in-game **BlindLusion Hotkeys** groups are the authoritative context-sensitive reference. A command may be silent when the current animation does not expose the corresponding native action.
 
 ## Support The Project
 
 Of course, it is only optional. It's just that bug fixes moving forward will be very slow, or non-existent, if they exceed my own programming skills. Besides, I am already quite happy with what the mod can currently do. And it's 100% playable for me, we probably no need to implement more features only serious bugs if there are any.
 
-- Buy me a Cup of Cola: [Ko-FI](https://ko-fi.com/on1xn)
-- Monthly Junk Food: [Patreon](https://patreon.com/on1xn)
+* 💬 **Discord:** [Autonomous Republic of Zero-Vis](https://discord.gg/4xGg4gGW9a))
+* 🥤 **Buy me a Cup of Cola:** [Ko-FI](https://ko-fi.com/on1xn)
+* 🍔 **Buy me Monthly Junk Food:** [Patreon](https://patreon.com/on1xn)
+
+---

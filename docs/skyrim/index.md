@@ -200,12 +200,9 @@ This included Awesome Follower Tweak, and Nether's Follower Framework. On nexus 
 
 ---
 
-## 🤝 Contact
+## 🤝 Contact And Support
 
-* 📦 **[Okasi Project Repository](https://github.com/on1xn/okasi)**
-* 💬 **Contact Me:** Reach out via **Discord (@on1xn_th)** or **[Steam](https://steamcommunity.com/id/on1xn/)**
-
-> **A short note:** contact me through Steam maybe easier. Because I turn it on all the time.
-
----
+* 💬 **Discord:** [Autonomous Republic of Zero-Vis](https://discord.gg/4xGg4gGW9a)
+* 🥤 **Buy me a Cup of Cola:** [Ko-FI](https://ko-fi.com/on1xn)
+* 🍔 **Buy me Monthly Junk Food:** [Patreon](https://patreon.com/on1xn)
 

@@ -1,7 +1,5 @@
-site_name: Okasi Project
+site_name: Autonomous Republic of Zero-Vis 
 
 theme:
   name: material
 
-nav:
-- The Elder Scrolls V - Skyrim: skyrim/index.md

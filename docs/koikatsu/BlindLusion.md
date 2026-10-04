@@ -128,8 +128,8 @@ These shortcuts operate while the BlindLusion H menu is closed unless stated oth
 | Finish inside, or come inside during Service actions | I, Right Control, or Numpad 1 | Right Bumper |
 | Finish outside | O, Right Alt, or Numpad 3 | Right Stick click |
 | Toggle partner taking the lead during Service actions | Left Control or Numpad 5 | Y |
-| Increase / decrease movement or Service action speed | Up / Down, or Numpad 7 / 2 | D-pad Up / Down |
-| Read penetration speed | X | Not assigned |
+| Increase / decrease movement or Service action speed | Up / Down, or Numpad 7 / 2. Service actions announce only Faster or Slower | D-pad Up / Down |
+| Read penetration / Service action speed | X for penetration; Left Alt + X for Service | Not assigned |
 | Switch slow / fast penetration loop | Left Alt or Numpad 6 | X |
 | Manual / automatic penetration movement | Z / Shift + Z | Y toggles mode |
 | Lock automatic movement while inserted | Control + Shift + Z | Not assigned |

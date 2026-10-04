@@ -4,13 +4,14 @@ Audio-first gaming guides, accessibility mods, and technical computer resources 
 
 ---
 
-## 🛠️ Mods
+## 🛠️ Accessibility Mods
 
-* **[BlindLusion.KK (Koikatsu Party Accessibility Mod For The Blind)](koikatsu/BlindLusion.md)**
+* **[SILENT HILL f (Uragirimono Project)](shf/uragirimono.md)**
+* **[Koikatsu Party (BlindLusion.KK))](koikatsu/BlindLusion.md)**
 
 ---
 
-## 🎮 Games
+## 🎮 Game Guides
 
 * **[The Elder V: Skyrim Special Edition / Anniversary Edition](skyrim/index.md)**
 

@@ -1,50 +1,23 @@
 # Uragirimono Project | SILENT HILL f Accessibility Mod By ON1XN
 
-
-
 **Public Test v0.5.0**
-
-
 
 You will probably understand the project name after playing the game.
 
-
-
-You may understand the version number too—if you know how Japanese numbers can be read.
-
-
-
 Uragirimono is an accessibility mod designed to make **SILENT HILL f** playable for blind and visually impaired players while preserving as much of the original gameplay, exploration, combat, atmosphere, and challenge as reasonably possible.
-
-
-
 This is a **Public Test**, not a claim that every part of the game has been fully verified from beginning to end.
-
-
 
 ## About SILENT HILL f
 
-
-
 SILENT HILL f is a third-person psychological horror game developed by NeoBards Entertainment and published by KONAMI. Set in 1960s Japan, it follows Shimizu Hinako through the isolated town of Ebisugaoka as she explores, solves puzzles, fights grotesque creatures, and experiences a story heavily influenced by Japanese culture, beliefs, imagery, and social context.
-
-
 
 The game combines exploration, puzzle solving, melee combat, psychological horror, and multiple endings. Some understanding of its Japanese setting and themes may help when interpreting the story.
 
-
-
 ---
-
-
 
 # Current Features
 
-
-
 Uragirimono currently includes:
-
-
 
 - Screen-reader accessibility through NVDA.
 
@@ -118,22 +91,15 @@ Uragirimono currently includes:
 
 - Automatic save backups when using potentially destructive progression assistance.
 
-
-
 The intention is not to automate the entire game. Whenever practical, Uragirimono provides the information or navigation assistance necessary for the player to make their own decisions and play normally.
 
-
-
 ---
-
-
 
 # Download And Installation
 
 Download the mod here: [Uragirimono Project](https://drive.google.com/drive/folders/1H9rlDb49S9YgLbquQcQ_bnhLvRtxqTTA?usp=sharing)
 
 Two packages are provided.
-
 
 1. Download the **Uragirimono Bundled** or **Mod Only**
 
@@ -147,26 +113,11 @@ Two packages are provided.
 
 6. Uragirimono should announce its name and version when loaded.
 
-
 ### UE4SS Compatibility Note
 
-
-
-Uragirimono was developed and extensively tested against a newer development build of UE4SS.
-
-
-
-Compatibility with the current public/stable UE4SS release cannot be guaranteed across every system or SILENT HILL f version.
-
-
-
-The bundled release includes the known-working UE4SS development runtime `v3.0.1-1140-gf58e8f84`. Official stable UE4SS v3.0.1 is incompatible with this native addon. The Mod Only package requires a compatible runtime; do not mix UE4SS versions.
-
-
+Only the bundled release includes the known-working UE4SS development runtime `v3.0.1-1140-gf58e8f84`. Official stable UE4SS v3.0.1 is incompatible with this mod. The Mod Only package requires a compatible runtime; do not mix UE4SS versions.
 
 ---
-
-
 
 # Known Issues and Public Test Limitations
 
@@ -183,23 +134,13 @@ The bundled release includes the known-working UE4SS development runtime `v3.0.1
 
 ---
 
-
-
 # Controller Controls
-
-
 
 **Important:** Uragirimono modifies several of SILENT HILL f's default controller bindings.
 
-
-
 The controls below describe the configuration expected by the mod.
 
-
-
 ## Xbox Controller — Game Controls
-
-
 
 - **D-Pad Left / Right** — Change weapon
 
@@ -233,15 +174,9 @@ The controls below describe the configuration expected by the mod.
 
 - **RT** — Heavy attack
 
-
-
 ## Xbox Controller — Uragirimono Controls
 
-
-
 **LB is Uragirimono's primary modifier key.**
-
-
 
 - **LB single press** — Report currently locked target
 
@@ -249,35 +184,19 @@ The controls below describe the configuration expected by the mod.
 
 - **Hold LB** — Modifier for Uragirimono commands
 
-
-
-### Scanner
-
-
-
 - **LB + Right Stick Left / Right** — Change Scanner category
 
 - **LB + Right Stick Up / Down** — Browse objects in current category
 
 - **LB + Right Stick Click** — Read currently selected object
 
-
-
 **Selected** and **Locked** are different states.
-
-
 
 A **Selected** object is the object currently highlighted while browsing the Scanner.
 
-
-
 A **Locked** object remains tracked after you stop browsing. Once an object is locked, pressing **LB** reports its current position/direction information again.
 
-
-
 The following commands operate on the currently selected or last-touched Scanner target where applicable:
-
-
 
 - **LB + A single press** — Turn Hinako toward selected target
 
@@ -305,15 +224,9 @@ The following commands operate on the currently selected or last-touched Scanner
 
 - **LB + Back double press** — Force Puzzle / Story Progress assistance
 
-
-
 ---
 
-
-
 # PlayStation Controller — Game Controls
-
-
 
 - **D-Pad Left / Right** — Change weapon
 
@@ -347,15 +260,9 @@ The following commands operate on the currently selected or last-touched Scanner
 
 - **R2** — Heavy attack
 
-
-
 ## PlayStation Controller — Uragirimono Controls
 
-
-
 **L1 is Uragirimono's primary modifier key.**
-
-
 
 - **L1 single press** — Report currently locked target
 
@@ -363,31 +270,17 @@ The following commands operate on the currently selected or last-touched Scanner
 
 - **Hold L1** — Modifier for Uragirimono commands
 
-
-
-### Scanner
-
-
-
 - **L1 + Right Stick Left / Right** — Change Scanner category
 
 - **L1 + Right Stick Up / Down** — Browse objects in current category
 
 - **L1 + R3** — Read currently selected object
 
-
-
 A **Selected** object is the current Scanner object.
-
-
 
 A **Locked** object remains tracked independently of Scanner browsing. Press **L1** to report the locked object's position again.
 
-
-
 Additional commands:
-
-
 
 - **L1 + Cross single press** — Turn Hinako toward selected target
 
@@ -415,36 +308,40 @@ Additional commands:
 
 - **L1 + Touchpad / Back double press** — Force Puzzle / Story Progress assistance
 
-
-
 ---
-
-
 
 # Keyboard Controls
 
-These are default bindings; SHf's own controls can be remapped in-game. Uragirimono's gameplay hotkeys yield to native menus, puzzles and cutscenes.
+- **WASD** — Move
 
-## SILENT HILL f — Native Basics
-
-- **WASD** — Move; **mouse** — Camera.
 - **F** — Interact / Check / Pickup; **Space** — Dodge; **C** — Native enemy lock/reset, with spoken lock feedback.
-- **Left mouse / right mouse** — Light / heavy attack.
-- **Q / E** or **mouse wheel** — Change weapon; **1–8** — Use assigned items.
+
+- **Q / E** ** — Change weapon; **1–8** — Use assigned items.
+
 - **Left Shift** — Sprint; **Left Ctrl** — Focus.
-- **Middle mouse** — Quick Item overlay; **P / Escape** — Pause; **M** — Map; **G** — Journal; **B** — Equipment.
+
+- **P / Escape** — Pause; **M** — Map; **G** — Journal; **B** — Equipment.
 
 ## Uragirimono Hotkeys
 
 - **Tab** — Report/lock target; **Shift+Tab** — Unlock.
+
 - **Shift+, / Shift+.** — Previous / next Scanner category.
+
 - **, / .** — Previous / next object in category; **N** — Read selected object.
+
 - **Z** — Player XYZ; **R** — Health; **Shift+R** — Sanity; **Alt+R** — Stamina.
+
 - **Shift+F** — Face active target; **Alt+F** — Remote Interact / Pickup.
+
 - **I / J / K / L** — Camera up / left / down / right; **U / O** — Light / heavy attack.
+
 - **;** — Locked enemy HP; **/** — Weapon durability.
+
 - **T** — Start/stop Auto Walk; **Shift+T** — Teleport; **X** — Turn around 180°.
+
 - **\\ double press** — Puzzle / Story Force Progress assistance.
+
 - **F1** — Uragirimono Menu. Inside it: **arrow keys** navigate/adjust, **Enter** activates/previews, **Escape / Backspace / F1** goes back/closes.
 
 Edit `[KeyboardBindings]` in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragirimono.ini` to customize hotkeys, then restart the game. These defaults intentionally override some native gameplay keys, including Tab, N, R, T and X; other native bindings remain unchanged.
@@ -453,39 +350,21 @@ Edit `[KeyboardBindings]` in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragir
 
 # Uragirimono Menu
 
-
-
-Press **LB + Back** on Xbox-style controllers or **L1 + Touchpad/Back** on PlayStation-style controllers to open the Uragirimono Menu.
-
-
+Press **F1** on keyboard, **LB + Back** on Xbox-style controllers or **L1 + Touchpad/Back** on PlayStation-style controllers to open the Uragirimono Menu.
 
 Opening the menu pauses gameplay.
 
-
-
 The menu currently contains:
 
-
-
-### Story
-
-
+Story
 
 Read-only information about the current story state, including available chapter, quest, objective and hint information.
 
-
-
-### Settings
-
-
+Settings
 
 Configure individual Uragirimono accessibility sound cues.
 
-
-
 Supported sound settings include:
-
-
 
 - Enable / Disable
 
@@ -493,61 +372,13 @@ Supported sound settings include:
 
 - Preview sound
 
-
-
-Settings use the same general interaction style as SILENT HILL f's native Options menus:
-
-
-
-- **D-Pad Up / Down** — Navigate
-
-- **D-Pad Left / Right** — Change values
-
-- **A / Cross** — Activate or preview
-
-- **B / Circle** — Back
-
-
-
 ---
-
-
 
 # Public Test Feedback
 
-
-
 This release exists specifically to discover situations that cannot be fully reproduced by one playthrough.
 
-
-
-If you encounter:
-
-
-
-- a progression blocker;
-
-- an unreadable menu;
-
-- a puzzle that cannot reasonably be completed;
-
-- an Objective that becomes incorrect or disappears;
-
-- an interactable that cannot be activated;
-
-- Scanner targets that are incorrect;
-
-- navigation failures;
-
-- combat accessibility failures;
-
-- crashes or unusual UE4SS behavior;
-
-
-
-please report what happened and, when possible, include the Uragirimono diagnostic logs from the same gameplay session.
-
-
+If you encounter, please report what happened and, when possible, include the Uragirimono diagnostic logs from the same gameplay session.
 
 The most useful reports explain **where you were, what you were trying to do, what Uragirimono reported, and what happened instead**.
 
@@ -555,11 +386,7 @@ For **Puzzle / Story Progress** reports, include the chapter/location, puzzle or
 
 Logs are in `SHf/Binaries/Win64/ue4ss/`: include `UE4SS.log`, `Mods/SHfNativeWall/SHfNativeWall.log`, and available logs from `Mods/SHfAccessibility/Scripts/`. Send reports through the Discord linked below. Automatic progression backups are in `Uragirimono Save Backups` beside `SHf.exe`, or `%LOCALAPPDATA%/SHf/Uragirimono Save Backups` if the game folder is unwritable.
 
-
-
 ---
-
-
 
 # 🤝 Contact And Support
 

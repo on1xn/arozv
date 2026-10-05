@@ -2,7 +2,7 @@
 
 
 
-**Public Test v0.4.9**
+**Public Test v0.5.0**
 
 
 
@@ -47,6 +47,10 @@ Uragirimono currently includes:
 
 
 - Screen-reader accessibility through NVDA.
+
+- 13-language support, following SILENT HILL f's selected text language, with English fallback.
+
+- Native keyboard support alongside controller controls. Keyboard bindings can be customized manually in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragirimono.ini`; restart the game after editing.
 
 - Fully manual walk supported.
 
@@ -156,7 +160,7 @@ Compatibility with the current public/stable UE4SS release cannot be guaranteed 
 
 
 
-The bundled release uses a normal non-development UE4SS build. If Uragirimono fails to initialize or behaves incorrectly with it, trying a recent UE4SS development build may help or report it to me.
+The bundled release includes the known-working UE4SS development runtime `v3.0.1-1140-gf58e8f84`. Official stable UE4SS v3.0.1 is incompatible with this native addon. The Mod Only package requires a compatible runtime; do not mix UE4SS versions.
 
 
 
@@ -166,8 +170,8 @@ The bundled release uses a normal non-development UE4SS build. If Uragirimono fa
 
 # Known Issues and Public Test Limitations
 
-- **English only:** Uragirimono-generated text is currently English only. Localization infrastructure is already implemented; support for all SILENT HILL f game languages is planned for the next update.
-- **Controller required:** Keyboard and mouse are currently unsupported.
+- **Subtitles:** In SILENT HILL f Language Settings, set **Show Subtitles: On** and **Show Speaker: On** for subtitle accessibility to work normally.
+- **After chase bypass:** If enemy audio or audio from the previous quest continues playing, manually reload the resulting save/checkpoint to complete the transition.
 - **Puzzle coverage:** Some puzzle/content interactions are not yet fully accessibility-verified, especially Chapter 2 Torii Ema clues, Chapter 3 Field Maze and Rinko House scarecrow, Chapter 5 School / Letter to Shu, and Chapter 6 Rinko-area Fox-flip gates.
 - **Auto Walk / Teleport:** May fail when a target is extremely close, behind a locked door, unreachable, or Hinako is standing in an unsuitable position.
 - **Remote Interact / Pick Up:** Use with care. Some items may exist behind locked doors, puzzles, or other progression conditions. Picking them up remotely before they are normally obtainable may cause progression or save-state problems, and safe behavior is not guaranteed.
@@ -417,6 +421,36 @@ Additional commands:
 
 
 
+# Keyboard Controls
+
+These are default bindings; SHf's own controls can be remapped in-game. Uragirimono's gameplay hotkeys yield to native menus, puzzles and cutscenes.
+
+## SILENT HILL f — Native Basics
+
+- **WASD** — Move; **mouse** — Camera.
+- **F** — Interact / Check / Pickup; **Space** — Dodge; **C** — Native enemy lock/reset, with spoken lock feedback.
+- **Left mouse / right mouse** — Light / heavy attack.
+- **Q / E** or **mouse wheel** — Change weapon; **1–8** — Use assigned items.
+- **Left Shift** — Sprint; **Left Ctrl** — Focus.
+- **Middle mouse** — Quick Item overlay; **P / Escape** — Pause; **M** — Map; **G** — Journal; **B** — Equipment.
+
+## Uragirimono Hotkeys
+
+- **Tab** — Report/lock target; **Shift+Tab** — Unlock.
+- **Shift+, / Shift+.** — Previous / next Scanner category.
+- **, / .** — Previous / next object in category; **N** — Read selected object.
+- **Z** — Player XYZ; **R** — Health; **Shift+R** — Sanity; **Alt+R** — Stamina.
+- **Shift+F** — Face active target; **Alt+F** — Remote Interact / Pickup.
+- **I / J / K / L** — Camera up / left / down / right; **U / O** — Light / heavy attack.
+- **;** — Locked enemy HP; **/** — Weapon durability.
+- **T** — Start/stop Auto Walk; **Shift+T** — Teleport; **X** — Turn around 180°.
+- **\\ double press** — Puzzle / Story Force Progress assistance.
+- **F1** — Uragirimono Menu. Inside it: **arrow keys** navigate/adjust, **Enter** activates/previews, **Escape / Backspace / F1** goes back/closes.
+
+Edit `[KeyboardBindings]` in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragirimono.ini` to customize hotkeys, then restart the game. These defaults intentionally override some native gameplay keys, including Tab, N, R, T and X; other native bindings remain unchanged.
+
+---
+
 # Uragirimono Menu
 
 
@@ -516,6 +550,10 @@ please report what happened and, when possible, include the Uragirimono diagnost
 
 
 The most useful reports explain **where you were, what you were trying to do, what Uragirimono reported, and what happened instead**.
+
+For **Puzzle / Story Progress** reports, include the chapter/location, puzzle or current Objective/Hint, difficulty, required items you had, and whether you tried normal play, Prepare, or Force Progress. Describe the state before and after, including missing rewards, doors, objectives or control. Keep a save/checkpoint and attach the same-session logs before restarting, if possible.
+
+Logs are in `SHf/Binaries/Win64/ue4ss/`: include `UE4SS.log`, `Mods/SHfNativeWall/SHfNativeWall.log`, and available logs from `Mods/SHfAccessibility/Scripts/`. Send reports through the Discord linked below. Automatic progression backups are in `Uragirimono Save Backups` beside `SHf.exe`, or `%LOCALAPPDATA%/SHf/Uragirimono Save Backups` if the game folder is unwritable.
 
 
 

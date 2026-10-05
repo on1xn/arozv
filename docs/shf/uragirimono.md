@@ -48,7 +48,9 @@ Uragirimono currently includes:
 
 - Screen-reader accessibility through NVDA.
 
-- Accessible native game menus and UI. (Options, load / save, journal, inventory, collectibles, document / etter, interactable objects contain text and so on.)
+- Fully manual walk supported.
+
+- Accessible native game menus and UI. (Options, load / save, journal, inventory, collectibles, document / letter, interactable objects contain text and so on.)
 
 - Spoken menu navigation, selections, inventory information and item names.
 

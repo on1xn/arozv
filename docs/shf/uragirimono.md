@@ -1,7 +1,5 @@
 # Uragirimono Project | SILENT HILL f Accessibility Mod By ON1XN
 
-**Public Test v0.5.0**
-
 You will probably understand the project name after playing the game.
 
 Uragirimono is an accessibility mod designed to make **SILENT HILL f** playable for blind and visually impaired players while preserving as much of the original gameplay, exploration, combat, atmosphere, and challenge as reasonably possible.
@@ -371,20 +369,6 @@ Supported sound settings include:
 - Individual volume
 
 - Preview sound
-
----
-
-# Public Test Feedback
-
-This release exists specifically to discover situations that cannot be fully reproduced by one playthrough.
-
-If you encounter, please report what happened and, when possible, include the Uragirimono diagnostic logs from the same gameplay session.
-
-The most useful reports explain **where you were, what you were trying to do, what Uragirimono reported, and what happened instead**.
-
-For **Puzzle / Story Progress** reports, include the chapter/location, puzzle or current Objective/Hint, difficulty, required items you had, and whether you tried normal play, Prepare, or Force Progress. Describe the state before and after, including missing rewards, doors, objectives or control. Keep a save/checkpoint and attach the same-session logs before restarting, if possible.
-
-Logs are in `SHf/Binaries/Win64/ue4ss/`: include `UE4SS.log`, `Mods/SHfNativeWall/SHfNativeWall.log`, and available logs from `Mods/SHfAccessibility/Scripts/`. Send reports through the Discord linked below. Automatic progression backups are in `Uragirimono Save Backups` beside `SHf.exe`, or `%LOCALAPPDATA%/SHf/Uragirimono Save Backups` if the game folder is unwritable.
 
 ---
 

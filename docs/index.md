@@ -7,7 +7,8 @@ Audio-first gaming guides, accessibility mods, and technical computer resources 
 ## 🛠️ Accessibility Mods
 
 * **[SILENT HILL f (Uragirimono Project)](shf/uragirimono.md)**
-* **[Koikatsu Party (BlindLusion.KK))](koikatsu/BlindLusion.md)**
+* **[Higurashi no naku koro ni hou (Moukakushi Project)](higurashi/moukakushi.md)**
+* **[Koikatsu Party (BlindLusion.KK)](koikatsu/BlindLusion.md)**
 
 ---
 

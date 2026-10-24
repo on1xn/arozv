@@ -23,7 +23,7 @@ Uragirimono currently includes:
 
 - Native keyboard support alongside controller controls. Keyboard bindings can be customized manually in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragirimono.ini`; restart the game after editing.
 
-- Fully manual walk supported.
+- Fully manual walk supported. (Keep in mind, maps in this game all are really complex, you need a lot of partient, if you decided to manual walk.)
 
 - Accessible native game menus and UI. (Options, load / save, journal, inventory, collectibles, document / letter, interactable objects contain text and so on.)
 
@@ -356,19 +356,11 @@ The menu currently contains:
 
 Story
 
-Read-only information about the current story state, including available chapter, quest, objective and hint information.
+Read-only information about the current story state, including available chapter, quest, objective, hint information and force story progress bypass.
 
 Settings
 
-Configure individual Uragirimono accessibility sound cues.
-
-Supported sound settings include:
-
-- Enable / Disable
-
-- Individual volume
-
-- Preview sound
+Configure individual Uragirimono accessibility sound cues and gameplay behaviors.
 
 ---
 

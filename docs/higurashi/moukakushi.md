@@ -4,28 +4,30 @@
 
 ## What is Higurashi?
 
-A quiet village. A new boy in town. Several lovely girls ready to make his school days unforgettable. 
-
-Welcome to **Higurashi When They Cry**, where life in Hinamizawa means club games, playful teasing, and plenty of time to get closer to your new friends. A little slice of life, romance summer…
+Welcome to **Higurashi When They Cry**, where life in Hinamizawa means club games, playful teasing, and plenty of time to get closer to your new friends. A little slice of life, and romantic summer…
 
 You can date with Reina, Rika, Satoko, Shion and Mion, which girl do you want to be closer?
+
+Well, believe me. Otherwise read the Steam page and search more about Higurashi before buying.
 
 Buy the game on [Steam](https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou_Ch1_Onikakushi/) or [GOG](https://www.gog.com/en/game/higurashi_when_they_cry_hou_ch1_onikakushi)
 
 ## Current Features
 
-- Hear story text, choices, menus, and confirmation questions.
+- Story text, choices, menus, and confirmation questions.
 - Navigate supported menus and settings with a keyboard or controller.
 - Save, load, overwrite, or delete saves with clearly named actions and slots.
 - Repeat dialogue or revisit the last 50 spoken entries.
 - Switch between automatic and manual reading.
-- Hear pause and resume announcements.
+- Pause and resume announcements.
 
 Support for additional chapters and remaining menus is still being explored. It's public test after all.
 
 ## Download And Installation
 
 Download at: [Moukakushi](https://drive.google.com/drive/folders/1FfuDbdrqtIo1E8PmBTZt80e2rScM2kuJ?usp=sharing)
+
+> **Note:** Download for Episode 1 - 8, Rei and Plus separately. Since the game treat them differently. However, all function are the same.
 
 Then extract ALL the contents of this ZIP directly into the game
 folder, beside the game executable. Keep the folders intact.

@@ -1,6 +1,6 @@
 # Moukakushi Project | Higurashi Hou Accessibility Mod By ON1XN
 
-**Moukakushi** (盲隠し) is an accessibility mod that helps blind and low-vision players enjoy the story with their screen reader.
+**Moukakushi** (盲隠し) is an accessibility mod for Higurashi no naku koro ni hou a visual novel on Steam and GOG. Read carefully and find answer for your curious questions.
 
 ## What is Higurashi?
 
@@ -8,7 +8,13 @@ Welcome to **Higurashi When They Cry**, where life in Hinamizawa means club game
 
 You can date with Reina, Rika, Satoko, Shion and Mion, which girl do you want to be closer?
 
-Well, believe me. Otherwise read the Steam page and search more about Higurashi before buying.
+Is this a lie?
+Is this a romantic?
+Who can I really believe?
+
+Find the answer in the game, read Steam page carefully, or search about Higurashi on internet.
+
+And it's not my responsibility for your buying. This is not the visual novel for all.
 
 Buy the game on [Steam](https://store.steampowered.com/app/310360/Higurashi_When_They_Cry_Hou_Ch1_Onikakushi/) or [GOG](https://www.gog.com/en/game/higurashi_when_they_cry_hou_ch1_onikakushi)
 

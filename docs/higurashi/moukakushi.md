@@ -26,8 +26,7 @@ Buy the game on [Steam](https://store.steampowered.com/app/310360/Higurashi_When
 - Repeat dialogue or revisit the last 50 spoken entries.
 - Switch between automatic and manual reading.
 - Pause and resume announcements.
-
-Support for additional chapters and remaining menus is still being explored. It's public test after all.
+- 07th and Console arcs mods are supported.
 
 ## Download And Installation
 
@@ -42,17 +41,30 @@ The game folder should contain winhttp.dll, doorstop_config.ini and BepInEx.
 
 And install a separate copy into each episode's own game folder.
 
-## CONTROLS
+## Keyboard Navigation
 
+Up/Down: choose a menu item or slot.
+Left/Right: adjust a setting, choose a slot action, or change the selected page.
 Enter: advance dialogue or activate a menu selection.
 Space: repeat the last spoken dialogue without advancing.
 Left bracket / right bracket: previous / next speech-history entry.
 Shift with either bracket: first / last history entry. History holds 50 entries.
 Alt+A: toggle native Auto/Manual text mode.
 Escape: pause the story, or cancel/back in a supported menu.
-Up/Down: choose a menu item or slot.
-Left/Right: adjust a setting, choose a slot action, or change the selected page.
 Page Up/Page Down: change save/load page.
+
+## Controller Navigation
+
+> **Note:** If you're using PlayStation controller and your controller does not work, please go to Steam > Library > Higurashi > Configure Controller, and turn on Steam input.
+
+D Pad / Left Stick Up/Down: choose a menu item or slot.
+D Pad / Left Stick Left/Right: adjust a setting, choose a slot action, or change the selected page.
+A / Cross: advance dialogue or activate a menu selection.
+B / Circle: Back or cancel.
+X / Square: toggle native Auto/Manual text mode.
+Y / Triangle: repeat the last spoken dialogue without advancing.
+Right Stick left / right: previous / next speech-history entry.
+Start / Option: pause the story.
 
 ---
 

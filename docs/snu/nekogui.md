@@ -12,7 +12,7 @@ There is only one way to find out. Play *Saya no uta* for yourself, and discover
 
 Buy this game on [GOG](https://www.gog.com/en/game/the_song_of_saya_directors_cut) or [Steam](https://store.steampowered.com/app/702050/The_Song_of_Saya/).
 
-> **Warning 1:** If you purchased this game from GOG, you no need to do anything. However, if you bought the game from Steam, you need to buy the unsensor 18 content DLC from [JAST Store](https://jaststore.com/games/np004_dlc/saya-no-uta-the-song-of-saya-dlc-steam). It's rought 1.9USD for the unsensor DLC. So I recomment to buy it from GOG in this case to prevent confusing.
+> **Warning 1:** If you purchased this game from GOG, you no need to do anything. However, if you bought the game from Steam, you need to buy the unsensor 18+ content DLC from [JAST Store](https://jaststore.com/games/np004_dlc/saya-no-uta-the-song-of-saya-dlc-steam). It's roughly 1.9USD for the unsensor DLC. So I recommend to buy it from GOG in this case to prevent confusing.
 > **Warning 2:** This game contain adult content, you should be over 18 years old to play.
 
 ## Download And Install

@@ -9,6 +9,7 @@ Audio-first gaming guides, accessibility mods, and technical computer resources 
 * **[SILENT HILL f (Uragirimono Project)](shf/uragirimono.md)**
 * **[Higurashi no naku koro ni hou (Moukakushi Project)](higurashi/moukakushi.md)**
 * **[Koikatsu Party (BlindLusion.KK)](koikatsu/BlindLusion.md)**
+* **[Saya No Uta (Nekogui Project)](snu/nekogui.md)**
 
 ---
 

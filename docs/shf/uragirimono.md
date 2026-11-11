@@ -13,86 +13,6 @@ The game combines exploration, puzzle solving, melee combat, psychological horro
 
 ---
 
-# Current Features
-
-Uragirimono currently includes:
-
-- Screen-reader accessibility through NVDA.
-
-- 13-language support, following SILENT HILL f's selected text language, with English fallback.
-
-- Native keyboard support alongside controller controls. Keyboard bindings can be customized manually in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragirimono.ini`; restart the game after editing.
-
-- Fully manual walk supported. (Keep in mind, maps in this game all are really complex, you need a lot of partient, if you decided to manual walk.)
-
-- Accessible native game menus and UI. (Options, load / save, journal, inventory, collectibles, document / letter, interactable objects contain text and so on.)
-
-- Spoken menu navigation, selections, inventory information and item names.
-
-- Accessible Quick Use Item management.
-
-- Scanner for nearby objects, items, interactables, objectives and enemies.
-
-- Scanner category browsing and object selection.
-
-- Persistent object locking and position tracking.
-
-- Direction and distance reporting.
-
-- Player XYZ position reporting.
-
-- Objective and quest-hint accessibility.
-
-- Objective persistence even when no spatial XYZ target is available.
-
-- Automatic objective updates and progression tracking.
-
-- Spatial wall/navigation audio.
-
-- Open-space/navigation assistance.
-
-- Auto Walk toward selected targets.
-
-- Teleport assistance.
-
-- Automatic facing toward selected objects.
-
-- Remote interaction and pickup assistance.
-
-- Close-range interactable notification cue.
-
-- Enemy positional audio.
-
-- Enemy lock feedback.
-
-- Enemy HP reporting.
-
-- Incoming Attack audio warnings.
-
-- Player HP, stamina and sanity reporting.
-
-- Weapon selection and weapon durability reporting.
-
-- Accessible item and weapon shortcut feedback.
-
-- Story and progression assistance.
-
-- Puzzle preparation and bypass assistance.
-
-- Force Progress for progression blockers.
-
-- Automatic bypass support for certain chase sequences that are impractical to navigate without sight.
-
-- Uragirimono Menu with Story information and configurable accessibility sound cues.
-
-- Individual accessibility sound-cue enable/disable, volume and preview controls.
-
-- Automatic save backups when using potentially destructive progression assistance.
-
-The intention is not to automate the entire game. Whenever practical, Uragirimono provides the information or navigation assistance necessary for the player to make their own decisions and play normally.
-
----
-
 # Download And Installation
 
 Download the mod here: [Uragirimono Project](https://drive.google.com/drive/folders/1H9rlDb49S9YgLbquQcQ_bnhLvRtxqTTA?usp=sharing)
@@ -111,256 +31,56 @@ Two packages are provided.
 
 6. Uragirimono should announce its name and version when loaded.
 
-### UE4SS Compatibility Note
+---
 
-Only the bundled release includes the known-working UE4SS development runtime `v3.0.1-1140-gf58e8f84`. Official stable UE4SS v3.0.1 is incompatible with this mod. The Mod Only package requires a compatible runtime; do not mix UE4SS versions.
+## What's Included
+
+**Story & Exploration**
+- Story and objective guidance across all 16 chapters.
+- Support for all five ending paths, including New Game+ requirements and optional quests.
+- Optional Chase Bypass, enabled by default.
+
+**Menus & Accessibility**
+- Spoken menus, inventory, equipment, documents, Notebook, save/load, and shrine interactions.
+- Dialogue, subtitles, and speech history.
+- Remote Interaction for supported objects.
+- Character and enemy descriptions.
+- Keyboard and controller support.
+
+**Puzzles**
+- Accessible puzzle interfaces with spoken instructions, clues, and interaction controls.
+- **All puzzle difficulties are supported**, including puzzles that change depending on your ending path.
+- Almost every puzzle can be solved independently. **One puzzle is automatically solved** because it could not be made independently accessible.
+
+**Navigation & Scanner**
+- Scanner categories for objectives, items, doors, enemies, NPCs, locations, and more.
+- Manual directional guidance, LB Lock, personal waypoints, and Teleport.
+- Auto Walk assistance where supported.
+- Directional audio for walls, open spaces, enemies, objectives, and incoming attacks.
+
+**Customization**
+- Adjustable sound cues, intervals, wall detection distance, and spoken guidance.
+- Optional obstacle, combat, HP, and Sanity announcements.
+- Customizable keyboard shortcuts.
+- 13 supported languages.
+
+## Known Limitations
+
+**Auto Walk does not cover every area or situation**, and I currently have no plans for major improvements to it. Manual navigation is entirely possible with enough patience, and short-distance Teleport can help when needed.
+
+I strongly recommend **keeping Chase Bypass enabled**, especially for blind players. The chase sequences are extremely difficult to complete independently. But I won't stop you to try though.
+
+**PS5 controller support has not been physically tested**, as I don't own the hardware. If you'd like to help, I'm open to donations toward purchasing a controller or receiving one directly. It doesn't need to be brand new; a working second-hand controller is perfectly fine!
+
+Some situations may still require adjustments or additional testing.
+
+**All achievement are not confirmed to be unlockable**, Specially chase bypass. The rest are unlockable.
 
 ---
 
-# Known Issues and Public Test Limitations
+# Mod's Hotkeys
 
-- **Subtitles:** In SILENT HILL f Language Settings, set **Show Subtitles: On** and **Show Speaker: On** for subtitle accessibility to work normally.
-- **After chase bypass:** If enemy audio or audio from the previous quest continues playing, manually reload the resulting save/checkpoint to complete the transition.
-- **Puzzle coverage:** Some puzzle/content interactions are not yet fully accessibility-verified, especially Chapter 2 Torii Ema clues, Chapter 3 Field Maze and Rinko House scarecrow, Chapter 5 School / Letter to Shu, and Chapter 6 Rinko-area Fox-flip gates.
-- **Auto Walk / Teleport:** May fail when a target is extremely close, behind a locked door, unreachable, or Hinako is standing in an unsuitable position.
-- **Remote Interact / Pick Up:** Use with care. Some items may exist behind locked doors, puzzles, or other progression conditions. Picking them up remotely before they are normally obtainable may cause progression or save-state problems, and safe behavior is not guaranteed.
-- **Chase bypasses:** Some difficult chase sequences may be force-bypassed. Steam achievements related to bypassed sequences are not guaranteed.
-- **Force Puzzle / Force Progress:** Cannot be guaranteed to bypass every puzzle or story state. Use carefully. Uragirimono creates save backups for potentially destructive progression operations, but keeping your own important saves is recommended. Steam achievements are not guaranteed when these bypasses are used.
-- **Falling hazards:** There are no comprehensive warnings for every ledge, hole, or fall hazard. Move carefully.
-- **Quick Use Items:** The interface is usable, but some spoken navigation or selection behavior may sound unusual.
-- **Game / UE4SS compatibility:** Game or UE4SS updates may break functionality. Uragirimono was developed using a newer UE4SS development build, so compatibility with every stable UE4SS or SILENT HILL f version cannot be guaranteed.
-
----
-
-# Controller Controls
-
-**Important:** Uragirimono modifies several of SILENT HILL f's default controller bindings.
-
-The controls below describe the configuration expected by the mod.
-
-## Xbox Controller — Game Controls
-
-- **D-Pad Left / Right** — Change weapon
-
-- **D-Pad Up** — Journal
-
-- **D-Pad Down** — Inventory
-
-- **Left Stick** — Move
-
-- **Left Stick Click (LS)** — Toggle Walk / Run
-
-- **Right Stick** — Camera
-
-- **Right Stick Click (RS)** — Enemy lock
-
-- **A** — Pick up / Check / Interact
-
-- **B** — Dodge
-
-- **X** — Enemy lock / lock-related native action
-
-- **Y** — Change weapon
-
-- **Back / View** — Open Quick Use Item menu
-
-- **Start / Menu** — Pause menu
-
-- **LT** — Focus
-
-- **RB** — Light attack
-
-- **RT** — Heavy attack
-
-## Xbox Controller — Uragirimono Controls
-
-**LB is Uragirimono's primary modifier key.**
-
-- **LB single press** — Report currently locked target
-
-- **LB double press** — Unlock current Uragirimono target
-
-- **Hold LB** — Modifier for Uragirimono commands
-
-- **LB + Right Stick Left / Right** — Change Scanner category
-
-- **LB + Right Stick Up / Down** — Browse objects in current category
-
-- **LB + Right Stick Click** — Read currently selected object
-
-**Selected** and **Locked** are different states.
-
-A **Selected** object is the object currently highlighted while browsing the Scanner.
-
-A **Locked** object remains tracked after you stop browsing. Once an object is locked, pressing **LB** reports its current position/direction information again.
-
-The following commands operate on the currently selected or last-touched Scanner target where applicable:
-
-- **LB + A single press** — Turn Hinako toward selected target
-
-- **LB + A double press** — Remote Interact / Pick Up
-
-- **LB + B single press** — Auto Walk to target
-
-- **LB + B double press** — Teleport to target
-
-- **LB + X single press** — Turn around 180 degrees
-
-- **LB + X double press** — Report weapon durability
-
-- **LB + Y single press** — Report HP
-
-- **LB + Y double press** — Report Sanity
-
-- **LB + RB single press** — Report locked enemy HP
-
-- **LB + RB double press** — Report Stamina
-
-- **LB + LS Click** — Report current player XYZ position
-
-- **LB + Back single press** — Open Uragirimono Menu
-
-- **LB + Back double press** — Force Puzzle / Story Progress assistance
-
----
-
-# PlayStation Controller — Game Controls
-
-- **D-Pad Left / Right** — Change weapon
-
-- **D-Pad Up** — Journal
-
-- **D-Pad Down** — Inventory
-
-- **Left Stick** — Move
-
-- **L3** — Toggle Walk / Run
-
-- **Right Stick** — Camera
-
-- **R3** — Enemy lock
-
-- **Cross** — Pick up / Check / Interact
-
-- **Circle** — Dodge
-
-- **Square** — Enemy lock / lock-related native action
-
-- **Triangle** — Change weapon
-
-- **Touchpad / equivalent Back input** — Open Quick Use Item menu
-
-- **Options** — Pause menu
-
-- **L2** — Focus
-
-- **R1** — Light attack
-
-- **R2** — Heavy attack
-
-## PlayStation Controller — Uragirimono Controls
-
-**L1 is Uragirimono's primary modifier key.**
-
-- **L1 single press** — Report currently locked target
-
-- **L1 double press** — Unlock current Uragirimono target
-
-- **Hold L1** — Modifier for Uragirimono commands
-
-- **L1 + Right Stick Left / Right** — Change Scanner category
-
-- **L1 + Right Stick Up / Down** — Browse objects in current category
-
-- **L1 + R3** — Read currently selected object
-
-A **Selected** object is the current Scanner object.
-
-A **Locked** object remains tracked independently of Scanner browsing. Press **L1** to report the locked object's position again.
-
-Additional commands:
-
-- **L1 + Cross single press** — Turn Hinako toward selected target
-
-- **L1 + Cross double press** — Remote Interact / Pick Up
-
-- **L1 + Circle single press** — Auto Walk to target
-
-- **L1 + Circle double press** — Teleport to target
-
-- **L1 + Square single press** — Turn around 180 degrees
-
-- **L1 + Square double press** — Report weapon durability
-
-- **L1 + Triangle single press** — Report HP
-
-- **L1 + Triangle double press** — Report Sanity
-
-- **L1 + R1 single press** — Report locked enemy HP
-
-- **L1 + R1 double press** — Report Stamina
-
-- **L1 + L3** — Report current player XYZ position
-
-- **L1 + Touchpad / Back single press** — Open Uragirimono Menu
-
-- **L1 + Touchpad / Back double press** — Force Puzzle / Story Progress assistance
-
----
-
-# Keyboard Controls
-
-- **WASD** — Move
-
-- **F** — Interact / Check / Pickup; **Space** — Dodge; **C** — Native enemy lock/reset, with spoken lock feedback.
-
-- **Q / E** ** — Change weapon; **1–8** — Use assigned items.
-
-- **Left Shift** — Sprint; **Left Ctrl** — Focus.
-
-- **P / Escape** — Pause; **M** — Map; **G** — Journal; **B** — Equipment.
-
-## Uragirimono Hotkeys
-
-- **Tab** — Report/lock target; **Shift+Tab** — Unlock.
-
-- **Shift+, / Shift+.** — Previous / next Scanner category.
-
-- **, / .** — Previous / next object in category; **N** — Read selected object.
-
-- **Z** — Player XYZ; **R** — Health; **Shift+R** — Sanity; **Alt+R** — Stamina.
-
-- **Shift+F** — Face active target; **Alt+F** — Remote Interact / Pickup.
-
-- **I / J / K / L** — Camera up / left / down / right; **U / O** — Light / heavy attack.
-
-- **;** — Locked enemy HP; **/** — Weapon durability.
-
-- **T** — Start/stop Auto Walk; **Shift+T** — Teleport; **X** — Turn around 180°.
-
-- **\\ double press** — Puzzle / Story Force Progress assistance.
-
-- **F1** — Uragirimono Menu. Inside it: **arrow keys** navigate/adjust, **Enter** activates/previews, **Escape / Backspace / F1** goes back/closes.
-
-Edit `[KeyboardBindings]` in `SHf/Binaries/Win64/ue4ss/Mods/SHfNativeWall/Uragirimono.ini` to customize hotkeys, then restart the game. These defaults intentionally override some native gameplay keys, including Tab, N, R, T and X; other native bindings remain unchanged.
-
----
-
-# Uragirimono Menu
-
-Press **F1** on keyboard, **LB + Back** on Xbox-style controllers or **L1 + Touchpad/Back** on PlayStation-style controllers to open the Uragirimono Menu.
-
-Opening the menu pauses gameplay.
-
-The menu currently contains:
-
-Story
-
-Read-only information about the current story state, including available chapter, quest, objective, hint information and force story progress bypass.
-
-Settings
-
-Configure individual Uragirimono accessibility sound cues and gameplay behaviors.
+Please read them in game by press LB + Back, L1 + D Pad up, or F1 on keyboard to open Uragirimono Menu, then Hotkeys. LB / RB, L1 / R1, Q and E change tab.
 
 ---
 
